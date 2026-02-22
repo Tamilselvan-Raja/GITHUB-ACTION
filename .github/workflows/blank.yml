@@ -13,4 +13,4 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: Build step 
-      run: echo "A action build"
+      run: echo "Hello, ${{ vars.MY_NAME }}"
